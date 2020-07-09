@@ -1,6 +1,11 @@
-<html> 
-<head> </head>
-<body>
-window.location.href="Datu_Home.Html"
-</body>
+<!DOCTYPE html>
+<html>
+   <body>
+      <script>
+         setTimeout(function(){
+            window.location.href = 'https://www.tutorialspoint.com/javascript/';
+         }, 5000);
+      </script>
+      <p>Web page redirects after 5 seconds.</p>
+   </body>
 </html>
